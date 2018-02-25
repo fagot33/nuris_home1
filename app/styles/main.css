@@ -1,0 +1,329 @@
+@font-face {
+  font-family: '8573';
+  src: url('../fonts/8573.eot');
+  src: url('../fonts/8573.eot') format('embedded-opentype'),
+  url('../fonts/8573.woff2') format('woff2'),
+  url('../fonts/8573.woff') format('woff'),
+  url('../fonts/8573.ttf') format('truetype'),
+  url('../fonts/8573.svg#8573') format('svg');
+}
+
+* {
+  margin:0; padding:0;
+  font-size:inherit;
+  color:inherit;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+button::-moz-focus-inner {
+  padding:0;border:0;
+}
+
+.clearfix{
+  clear: both;
+}
+body{
+  background-image: url("../images/background_02.png");
+  width: 100%;
+  margin: auto;
+  color: green;
+}
+header{
+  max-width: 966px;
+  width: 100%;
+  margin: auto;
+  height: 87px;
+}
+.nuris_logo{
+  display: inline-block;
+  padding: 29px 0;
+  border-top: 4px solid #05abda;
+}
+.nav_sal{
+  float: right;
+  font-family: '8573';
+  font-size: 10pt;
+  color: #ababab;
+  display: inline-block;
+  background-color: #303030;
+  line-height: 24px;
+  height: 24px;
+   padding: 0 10px 0 10px;
+}
+
+.nav_sal span{
+  color: white;
+}
+
+li{
+  display: inline-block;
+  font-family: '8573';
+  font-size: 15px;
+  color:white;
+  text-transform: uppercase;
+
+}
+ul{
+  display: inline-block;
+}
+.form .fa-check{
+  position: relative;
+  right:30px;
+  color: white;
+}
+.form input{
+  width: 192px;
+  height: 27px;
+  background-color: black;
+  line-height: 27px;
+  padding: 0 0 0 10px;
+}
+ .icons .fas{
+  font-size: 20px;
+   color: #05abda;
+
+ }
+ .nav_bar{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   margin-top: 4px;
+   justify-content: flex-end;
+position: relative;
+   bottom: 60px;
+
+ }
+ .nav_li{
+ }
+body > header > div.nav_bar > div.icons > i.fas.fa-shopping-cart{
+  margin-left: 16px;
+}
+.icons i.fas.fa-comment{
+  margin-left:21px;
+}
+body > header > div.nav_bar > div.nav_li > ul > a:nth-child(2) > li{
+  margin-left:33px;
+}
+.form{
+  margin-left: 34px;
+  position: relative;
+  left: 5px;
+
+}
+ section{
+   max-width: 966px;
+   width: 100%;
+margin: auto }
+
+.owl-theme .owl-dots {
+  position: absolute;
+  top: 17px;
+  right: 20px;}
+body > section > div > div.owl-dots > div.owl-dot.active > span{
+  border-radius: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+  border-radius: 0px;
+}
+.con{
+  font-family: '8573';
+  width: 218px;
+  height: 58px;
+  display: inline-block;
+  color: white;
+  background-image: url("../images/nyrius-home_03.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top:233px;
+  z-index: 1;
+  line-height: 58px;
+  left: 20px;
+}
+article{
+  max-width: 966px;
+  width: 100%;
+  margin: auto }
+.art_1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*width: 350px;*/
+  /*height: 455px;*/
+}
+.icon_t {
+  width: 167px;
+  line-height: 58px;
+  background-image: url("../images/background-text-connect_03.png");
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-family: '8573';
+  margin-top: 140px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 25px;
+
+}
+.icon_t1{
+  text-transform: uppercase;
+  width: 350px;
+  color: white;
+  font-family: '8573';
+  position: absolute;
+  font-size:25px;
+margin-top: 118px;
+  margin-left: 20px;
+}
+.icon_t3{
+  font-size: 15px;
+  margin-left:25px;
+  background-color: white;
+  color: #127db0;
+  padding:3px;
+}
+.icon_1_2{
+  margin-top:20px;
+}
+.icon_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.icon_2{
+  width: 340px;
+  height: 455px;
+  background-image: url("../images/nyrius-pro_03.png");
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.icon_2_1{
+  background: url("../images/center.png") no-repeat;
+  width: 225px;
+  height: 87px;
+  font-family: '8573';
+  font-size:25px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 345px;
+  margin-left: 20px;
+  padding: 15px;
+}
+.icon_3_1{
+  background: url("../images/sv.png") no-repeat;
+  width: 230px;
+  height: 217px;
+}
+.icon_3_1 p{
+  font-family: '8573';
+  font-size:25px;
+  color: white;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-top: 93px;
+}
+.icon_3_2{
+  background-image: url("../images/nyr_03.png");
+  background-repeat: no-repeat;
+  width: 230px;
+  height: 216px;
+  margin-top: 20px;
+}
+footer{
+  background-image: url("../images/nyrius-home_footer_03.png");
+  background-repeat: no-repeat;
+  max-width: 966px;
+  height: 73px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.links li{
+  font-size: 12px;
+  color: #767776;
+ margin-right: 20px;
+}
+.links li:nth-child(5) { margin-right: 0px; }
+
+
+
+.links{
+  width: 650px;
+  display: inline-block;
+ padding-top: 20px;
+
+}
+body > footer > div.links > ul > a:nth-child(5) > li{
+  margin-right: 0px;
+}
+.links_1{
+  float: left;
+
+}
+.links_2{
+  float: right;
+}
+body > footer > div.links > ul.links_2 > li{
+  margin-right: 43px;
+}
+.after_links{
+  color:#767776;
+  font-size: 12px;
+  font-family: '8573';
+  text-transform: uppercase;
+  width: 316px;
+
+}
+.after_links_p{
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.inp{
+  width: 200px;
+  border-radius: 14px;
+  line-height: 30px;
+  background-color: #181818;
+  border: none;
+
+
+}
+.aft{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  position: relative;
+
+}
+.icon-after{
+  position: absolute;
+  right: 10px;
+  bottom: 8px;}
+.footer_icons{
+  display: flex;
+justify-content: flex-end;
+padding-top: 8px;}
+.footer_icons i{
+  margin-left: 10px;
+  font-size: 14px;
+}
+.fa-facebook-f{
+  line-height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background-color: #575757;
+  color: #000000;
+  text-align: center;
+  font-size: 10px;
+}
